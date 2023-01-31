@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  text-align: center;
+  color: white;
+
+  background-image: url(./background.png);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.container-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 45px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.container-calculo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /*utilizando https://hype4.academy/tools/glassmorphism-generator para auxiliar no background do conteiner do calculo*/
+  background: rgba(181, 80, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  max-width: 50%;
+  padding: 56px 20px;
+  margin: auto;
+  gap: 12px;
+}
+
+.container-calculo h3 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 4px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+button:hover {
+  background-color: rgb(232, 215, 238);
+}
+
+button:active {
+  background-color: rgb(235, 198, 248);
+}
+
+label {
+  margin-bottom: 4px;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.form > * {
+  width: 100%;
+}
+
+#result {
+  font-weight: 800;
+}
