@@ -19,9 +19,16 @@ body {
   height: 100vh;
 }
 
+.page-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .container-title {
   text-align: center;
   padding: 20px;
+  margin-top: 56px;
 }
 
 .page-title {
@@ -46,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   /*utilizando https://hype4.academy/tools/glassmorphism-generator para auxiliar no background do conteiner do calculo*/
   background: rgba(181, 80, 221, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -59,6 +66,7 @@ body {
   padding: 56px 20px;
   margin: auto;
   gap: 12px;
+  width: 100%;
 }
 
 .container-calculo h3 {
